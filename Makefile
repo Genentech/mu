@@ -73,9 +73,6 @@ nag:
 			echo "$$output\n" ;\
 		fi ;\
 	done | grep ".*" ;\
-    if [ $$? -eq 0 ]; then \
-    	exit 1 ;\
-    fi
 
 cyclo:
 	@echo "=== cyclomatic complexity ==="
